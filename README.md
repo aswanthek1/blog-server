@@ -1,24 +1,5 @@
-<!-- PROJECT LOGO -->
-<div align="center">
-  <a href="https://github.com/jauharmuhammed/README-template">
-    <img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/github-logo.svg" alt="Logo" width="80" height="80" border-radius="50%">
-  </a>
-
-  <h3 align="center">Title</h3>
-
-  <p align="center">
-    Short Discription of the Project
-  </p>
-</div>
-
-
-
 
 ## About The Project
-<br>
-<p align='center'>
-<img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/Mockup-website.png" width='70%' >
-</p>
 <br>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet cursus ex. Maecenas id lacus ut diam placerat lobortis ac quis nisl. Nulla mattis, sapien quis ultricies bibendum, quam erat gravida velit, eget auctor metus est et leo. Nam tristique vulputate ante at malesuada. Nulla egestas semper ante, et imperdiet elit posuere ut. Integer id nibh eu massa scelerisque aliquet vel vel lacus. Duis luctus dictum odio id dapibus. Suspendisse eu erat odio.. You can find the deployed project [here.](https://github.com/jauharmuhammed/README-Template)
