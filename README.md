@@ -1,15 +1,19 @@
+## Blog App
+
 
 ## About The Project
 <br>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet cursus ex. Maecenas id lacus ut diam placerat lobortis ac quis nisl. Nulla mattis, sapien quis ultricies bibendum, quam erat gravida velit, eget auctor metus est et leo. Nam tristique vulputate ante at malesuada. Nulla egestas semper ante, et imperdiet elit posuere ut. Integer id nibh eu massa scelerisque aliquet vel vel lacus. Duis luctus dictum odio id dapibus. Suspendisse eu erat odio.. You can find the deployed project [here.](https://github.com/jauharmuhammed/README-Template)
+In this project user can add blogs about varities of topic. And  can read the added blogs
+Technologies Used :-
+- MongoDB
+- React Js
+- Node Js
+- Express
+- HTML 5
+- Tailwind CSS
 
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- In sit amet cursus ex.
-- Maecenas id lacus ut diam placerat lobortis ac quis nisl.
--  Nam tristique vulputate ante at malesuada.
-- imperdiet elit posuere ut.
-
+The project is completely responsive too.
 
 ## Running this project
 
@@ -18,13 +22,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet cursus ex. 
 
 ```bash
  set .env file in root directory 
- set mongoURL= your local host link
+ set MONGODB_URI= your local host link
 ```
 
 Clone the project
 
 ```bash
-  git clone https://github.com/cv-arun/blog-app.git
+  git clone https://github.com/aswanthek1/blog-server.git
 ```
 
 Go to the project directory backend
@@ -42,24 +46,39 @@ Install dependencies
 Start the server
 
 ```bash
-  npm start
+  npm run server
 ```
 
-Go to the project directory frontend
+<br/>
 
-```bash
-  cd frontend
-```
+<br>
 
-Install dependencies
 
-```bash
-  npm install
-```
 
-Start the server
 
-```bash
-  npm start<br>
+## Screenshots
+
+
+
+
+<p align="center">
+Home Page
+</p>
+<img src="https://res.cloudinary.com/dm0l6abeb/image/upload/v1673522319/Equiam/EqaimHome_zt67jq.png">  
+
+     
+<p align="center">
+Create Blog Page
+</p>
+<img src="https://res.cloudinary.com/dm0l6abeb/image/upload/v1673522318/Equiam/EqaimCreate_puzvap.png">
+
+     
+<p align="center">
+Show blog page
+</p>
+<img src="https://res.cloudinary.com/dm0l6abeb/image/upload/v1673522319/Equiam/EqaimShow_wp3uc8.png">
+
+
+<br/>
 
 
