@@ -34,7 +34,7 @@ Clone the project
 Go to the project directory backend
 
 ```bash
-  cd backend
+  cd server
 ```
 
 Install dependencies
