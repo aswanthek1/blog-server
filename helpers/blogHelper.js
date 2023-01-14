@@ -7,9 +7,11 @@ module.exports = {
     console.log(tittle, content);
     try {
       return new Promise(async (resolve, reject) => {
-        await new blogModel({ tittle, content, author }).save().then((response) => {
-          resolve(response);
-        });
+        await new blogModel({ tittle, content, author })
+          .save()
+          .then((response) => {
+            resolve(response);
+          });
       });
     } catch (error) {}
   },
@@ -33,6 +35,21 @@ module.exports = {
         await blogModel.find().then((response) => {
           resolve(response);
         });
+      });
+    } catch (error) {}
+  },
+
+  ///paginatedBlogs
+  paginatedBlogs: (limit, skip) => {
+    try {
+      return new Promise(async (resolve, reject) => {
+        await blogModel
+          .find()
+          .skip(skip)
+          .limit(limit)
+          .then((response) => {
+            resolve(response);
+          });
       });
     } catch (error) {}
   },
