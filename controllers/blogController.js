@@ -15,7 +15,7 @@ module.exports = {
         });
       }
     } catch (error) {
-      res.status(500).json("error found", error);
+      res.status(500).json({ message: 'Error Found', error: error });
     }
   },
 
@@ -29,7 +29,7 @@ module.exports = {
         })
         .catch((error) => console.log(error));
     } catch (error) {
-      res.status(500).json("error found", error);
+      res.status(500).json({ message: 'Error Found', error: error });
     }
   },
 
@@ -46,21 +46,21 @@ module.exports = {
         });
     } catch (error) {
       console.log(error);
-      res.status(500).json("error found", error);
+      res.status(500).json({ message: 'Error Found', error: error });
     }
   },
 
   getBlogsByPaginate: async (req, res) => {
     try {
       const pages = parseInt(req.params.pages);
-      const limit = 3;
+      const limit = req.query?.limit ? req.query?.limit : 3;
       const skip = (pages - 1) * limit;
       await blogHelper.paginatedBlogs(limit, skip).then((paginationBlogs) => {
         res.status(200).json(paginationBlogs);
       });
     } catch (error) {
       console.log(error);
-      res.status(500).json("error found", error);
+      res.status(500).json({ message: 'Error Found', error: error });
     }
   },
 };
